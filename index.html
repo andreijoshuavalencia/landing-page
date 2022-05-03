@@ -4,23 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Landing Page</title>
 </head>
 <body>
     <header class="header">
-        <img src="./images/logo.png" alt="logo of site" class="logo" width="180px">
+        <img src="./images/logo.png" alt="logo of site" class="logo right">
         <div class="navbar">
             <ul>
-                <li class="navbar-items"><a href="#">Home</a></li>
-                <li class="navbar-items"><a href="#">About</a></li>
-                <li class="navbar-items"><a href="#">Contact</a></li>
+                <li class="navbar-items left"><a href="#">Home</a></li>
+                <li class="navbar-items left"><a href="#">About</a></li>
+                <li class="navbar-items left"><a href="#">Contact</a></li>
             </ul>
         </div>
     </header>
     
-    <section>
-        <h2>This website is awesome</h2>
-        <p>A website created by Andrei Valencia. This is my first website. It utilizes the flexbox design and multiple css exercises that i have tackled in TOP. </p>
+    <section class="hero">
+        <div class="text-information">
+            <h2>This website is awesome</h2>
+            <p>A website created by Andrei Valencia. This is my first website. It utilizes the flexbox design and multiple css exercises that i have tackled in TOP. </p>
+            <button class="button" type="button"> Sign Up </button>
+        </div>
+        <img src="./images/logo.png" alt="large image of logo" class="header-img" width="250px">
     </section>
 </body>
 </html>
