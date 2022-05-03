@@ -53,15 +53,13 @@ ul{
 }
 
 .hero{
-    /* border: 2px solid red; */
     background-color: #1F2937;
     padding: 12px;
     display: flex;
     justify-content: center;
 }
 .text-information{
-    max-width: 800px;
-    /* border: 2px solid red; */
+    max-width: 600px;
     display: flex;
     flex-flow: column wrap;
     color: #fff;
@@ -83,4 +81,35 @@ ul{
     justify-content: center;
     padding: 18px 30px;
     margin-top: 15px;
+}
+
+.hero img{
+    width: 300px;
+}
+
+.features{
+    background-color: #F9FAF8;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.features h3{
+    font-size: 24px;
+
+}
+.box-container{
+    max-width: 600px;
+    margin-top: 100px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box-container img{
+    width: 200px;
+    border: 4.5px solid #3882F6;
+    border-radius: 5%;
 }
