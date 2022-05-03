@@ -88,22 +88,30 @@ ul{
 }
 
 .features{
-    background-color: #F9FAF8;
+    /* border: 2px solid red; */
     padding: 20px;
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
 }
 
-.features h3{
-    font-size: 24px;
+.body-info{
+    background-color: #F9FAF8;
+    padding-top: 10px;
+    /* border: 2px solid red; */
+    
+}
+
+.body-info h3{
+    font-size: 36px;
+    text-align: center;
 
 }
 .box-container{
-    max-width: 600px;
-    margin-top: 100px;
+    margin: 10px auto;
     padding: 20px;
     display: flex;
+    flex-flow: row wrap;
     justify-content: space-around;
     align-items: center;
 }
@@ -112,4 +120,34 @@ ul{
     width: 200px;
     border: 4.5px solid #3882F6;
     border-radius: 5%;
+    box-shadow: 12px 12px 2px 1px rgba(105, 105, 129, 0.3);
+}
+
+.info{
+    width: 400px;
+    display: flex;
+    flex-flow: column wrap;
+    
+}
+.info .text{
+    margin-top: 10px;
+}
+
+.quote-section{
+    background-color: #E5E7EB;
+    padding: 50px;
+}
+
+.main-quote{
+    display: flex;
+    gap: 20px;
+    justify-content:center
+}
+
+.main-quote .quote{
+    padding: 100px;
+    border: 2px solid red;
+    font-size: 32px;
+    font-style: italic;
+    color: #1F2937;
 }
